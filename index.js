@@ -15,7 +15,7 @@ router.use(function (req, res, next) {
 router.get('/', function (req, res) {
 	res.sendFile(__dirname + '/index.html')
 })
-
+let a
 // подключаем роутер к приложению
 app.use('/', router)
 
